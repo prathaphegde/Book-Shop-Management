@@ -32,7 +32,7 @@ public class CartTest {
         s.itemAvailable[1].addItem("coffee", 100);
         c.updateCart(s.itemAvailable[0], 5);
         c.updateCart(s.itemAvailable[1], 6);
-        assertEquals(2,c.noOfItems);
+        assertEquals(2,c.numberOfItems);
 		
 		 
 	}
@@ -50,7 +50,7 @@ public class CartTest {
         s1.itemAvailable[1].addItem("coffee", 100);
         c1.updateCart(s.itemAvailable[0], 5);
         c1.updateCart(s.itemAvailable[1], 6);
-        assertEquals(2,c1.noOfItems);
+        assertEquals(2,c1.numberOfItems);
 		
 		 
 	}
@@ -64,7 +64,7 @@ public class CartTest {
             s2.itemAvailable[i] = new Item();
         }
         
-        assertEquals(0,c2.noOfItems);
+        assertEquals(0,c2.numberOfItems);
 		
 		 
 	}
